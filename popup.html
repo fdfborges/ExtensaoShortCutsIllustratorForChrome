@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Illustrator Shortcuts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <img src="icons/icon32.png" alt="Icon" class="header-icon">
+        <h1>Illustrator Shortcuts</h1>
+    </header>
+
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Pesquisar atalhos...">
+    </div>
+
+    <nav class="filters">
+        <button class="filter-btn active" data-category="all">Todos</button>
+        <button class="filter-btn" data-category="basic">Básicos</button>
+        <button class="filter-btn" data-category="selection">Seleção</button>
+        <button class="filter-btn" data-category="draw">Desenho</button>
+        <button class="filter-btn" data-category="edit">Edição</button>
+        <button class="filter-btn" data-category="view">Visualização</button>
+        <button class="filter-btn" data-category="objects">Objetos</button>
+    </nav>
+
+    <main id="shortcutsContainer" class="shortcuts-container">
+        <!-- Atalhos serão carregados aqui -->
+    </main>
+
+    <footer class="footer">
+        Feito com 💜 para designers
+    </footer>
+
+    <script src="shortcuts-data.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html>
